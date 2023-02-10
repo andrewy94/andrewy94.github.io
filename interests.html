@@ -1,38 +1,52 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    <link rel ="stylesheet" href="style.css" type ="text/css"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>about</title>
   </head>
   <body>
     <!-- content here -->
+    <div class = "container">
     <nav>
-        <strong>
-            <a href='index.html'>About</a>
-            - <a href='skills.html'>Skills</a>
-            - <a href='education.html'>Education</a>
-            - <a href='experience.html'>Experience</a>
-            - <a>Interests</a>
-            - <a href='contact.html'>Contact</a>
-        </strong>
+      <ul>
+            <li><a href='index.html'>About</a></li>
+            <li><a href='skills.html'>Skills</a></li>
+            <li><a href='education.html'>Education</a></li>
+            <li><a href='experience.html'>Experience</a></li>
+            <li><a class = "current" href='interests.html'>Interests</a></li>
+        </ul>
     </nav>
-    <p>
-        <!-- this image needs to be available in the same directory as this document -->
-        <img src="pictures/cat4.jpg" width="470" alt="picture of someone">
-    </p>
-    <h1>
-        Stella
-    </h1>
-    <h2>Interests</h2>
+
+    <section class = "body">
+    <div class = portrait>
+      <figure>
+          <img class = "pic" src="pictures/cat5.JPG" alt="supposed to be a picture of a cat here">
+      </figure>
+      <h3 class= "name">Stella </h3>
+      <p class= "desc">Black and white cat, White and black cat</p>
+      <p class= "email">castella@mail.ca</p>
+    </div>
+
+
+<div class = "content">
+  <p class="contentheader">Interests</p>
     <ul>
         <li>Sleeping</li>
         <li>Eating treats</li>
         <li>Meowing for attention</li>
         <li>Claiming seats</li>
-        <li>Reading <a target = "_blank" href='https://www.catster.com'>Cat News</a></li>
+        <li>Reading <a class = "highlight" target = "_blank" href='https://www.catster.com'>Cat News</a></li>
         <li>Exploring new things</li>
     </ul>
+</div>
 
+</section>
+
+    <footer>
+      © Andrew Yan
+  </footer>
+    </div>
   </body>
 </html>
